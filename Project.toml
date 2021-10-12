@@ -1,6 +1,22 @@
 name = "DMC"
-[compat]
-julia = "1.6.2"
-DrWatson = "2.5.0"
+
 [deps]
+Agents = "46ada45e-f475-11e8-01d0-f70cc89e6671"
+Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+FixedPointAcceleration = "817d07cb-a79a-5c30-9a31-890123675176"
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
+LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
+MatrixDepot = "b51810bb-c9f3-55da-ae3c-350fc1fbce05"
+MatrixMarket = "4d4711f2-db25-561a-b6b3-d35e7d4047d3"
+NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
+RandomizedLinAlg = "0448d7d9-159c-5637-8537-fd72090fea46"
+StaticGraphs = "4c8beaf5-199b-59a0-a7f2-21d17de635b6"
+
+[compat]
+DrWatson = "2.5.0"
+julia = "1.6.2"
